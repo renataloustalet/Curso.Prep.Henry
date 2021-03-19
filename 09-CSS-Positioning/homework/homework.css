@@ -61,7 +61,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #ejercicioSiete {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     align-self: flex-start;
     flex-direction: column-reverse;
 }
