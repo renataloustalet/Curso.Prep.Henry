@@ -28,11 +28,6 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
-  /*var suma = 0;
- numeros.forEach(function(suma){
-   cb += suma;
- });
-  return cb;*/
   cb(numeros.reduce((a, b) => a + b));
   return cb;
 
@@ -50,17 +45,14 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
-  var nuevoArray = array.map(cb)
-  return nuevoArray;
+  return array.map(cb);
 }
 
 function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
-var newArray = array.filter(array => array.charAt(0) === 'a')
-return newArray;
-
+  return array.filter(array => array.charAt(0) === 'a');
 }
 
 // No modificar nada debajo de esta línea
