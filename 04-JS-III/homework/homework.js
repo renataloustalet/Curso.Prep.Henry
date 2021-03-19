@@ -176,7 +176,6 @@ function todosIguales(arreglo) {
         return false;
       }
     }
-  
 } 
 
 function mesesDelAño(array) {
