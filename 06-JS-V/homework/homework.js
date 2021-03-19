@@ -77,7 +77,6 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Devolver la nueva persona creada
   var juan = new Persona('Juan', 'Perez', 22, 'Saavedra 123');
   return juan;
-
 }
   
 function agregarMetodo() {
