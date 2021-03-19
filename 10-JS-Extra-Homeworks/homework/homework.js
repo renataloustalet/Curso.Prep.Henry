@@ -50,7 +50,6 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
-
   var frase = str.split(' ');
   var fraseEspejo = '';
   for(var i = 0; i < frase.length; i++){
@@ -63,56 +62,6 @@ function asAmirror(str) {
   }
 
   return fraseEspejo;
-
-
-  //var rev = str.split('').reverse().join('');
-  /*var rev = Array.from(str).reverse().join('');
-  var arrRev =+ rev;
-  arrRev.reverse();
-  console.log(arrrev);*/
-
-  /*var arrStr = Array.from(str);
-  return arrStr.reverse();*/
-
-
-//  var st = str.split('').reverse().join('');
-  //return st;
-
-  //nvifndn
-  /*var c = ' ';
-  var salida = '';
-  for(var i = 0; i < str.length; i++){
-    c = str.charAt(i);
-    salida += c;
-  }
-
-  return salida;*/
-
-  //grgfdfrd
-  /*var str1 = '';
-  for(var j = str.length; j >= 0; j--){
-    str1 = str.charAt(j);
-  }
-  return str1;*/
- /* var s = '';
-  for(var i = str.length; i >= 0; i--){
-   s += str.charAt(i);
-  }
-  return s;*/
-  //var array = str.split();
-  /*var s = '';
-  var n = 0;
-  for(var i = str.length - 1; i >= 0; i--){
-    //ar.push(array);
-    while(s = str.charAt(i)){
-      s+= str.charAt(i);
-      n++;
-    };
-  }
-  return s;*/
-  //var arr = Array.from(str);
-  //var l = arr.reverse().join('');
-  //return l;
 } 
 
 
